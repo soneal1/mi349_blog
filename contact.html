@@ -20,6 +20,29 @@
 
     <main>
         <h2>Contact Me</h2>
+
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="reason">Reason for Contact:</label><br>
+            <select id="reason" name="reason">
+                <option value="">Select a reason</option>
+                <option value="hi">Saying Hi</option>
+                <option value="contractor">Looking for a Contractor</option>
+                <option value="interview">Interested in an Interview</option>
+            </select><br><br>
+
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="30"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
     </main>
 </body>
 </html>
